@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Malla Curricular Interactiva</h1>
+  <div class="tabs">
+    <button onclick="mostrarMalla('grafica')">Gráfica Publicitaria</button>
+    <button onclick="mostrarMalla('audiovisual')">Audiovisual</button>
+  </div>
+
+  <div id="grafica" class="malla-content"></div>
+  <div id="audiovisual" class="malla-content" style="display: none;"></div>
+
+  <script src="mallas.js"></script>
+  <script src="interaccion.js"></script>
+</body>
+</html>
 
