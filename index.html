@@ -4,20 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Malla Curricular Interactiva</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <h1>Malla Curricular Interactiva</h1>
-  <div class="tabs">
-    <button onclick="mostrarMalla('grafica')">Gráfica Publicitaria</button>
-    <button onclick="mostrarMalla('audiovisual')">Audiovisual</button>
+
+  <div class="programa">
+    <h2>🎥 Comunicación y Lenguajes Audiovisuales</h2>
+    <h3>Duración: 10 semestres</h3>
+    <h3>Título otorgado: Comunicador en Lenguajes Audiovisuales</h3>
+
+    <!-- Aquí pegas cada semestre como lo tenías en el HTML original -->
+    <!-- Ejemplo: -->
+    <div class="semestre">
+      <h4>Semestre 1</h4>
+      <div class="materia unlocked" id="fotografia">Fotografía</div>
+      <div class="materia unlocked" id="historia1">Historia del Cine I</div>
+      <div class="materia unlocked" id="tleai">Taller de Lectura y Escritura Analítica I</div>
+      <div class="materia unlocked">Estética</div>
+      <div class="materia unlocked">Expresión Escrita</div>
+      <div class="materia unlocked">Fundamentos de Derecho</div>
+      <div class="materia unlocked" id="introcom">Introducción a las Ciencias de la Cción.</div>
+      <div class="materia unlocked">Taller Gráfico I</div>
+    </div>
+    <!-- Continúa con los otros semestres -->
+
   </div>
 
-  <div id="grafica" class="malla-content"></div>
-  <div id="audiovisual" class="malla-content" style="display: none;"></div>
-
-  <script src="mallas.js"></script>
-  <script src="interaccion.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
-
