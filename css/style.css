@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #d63384;
+}
+
+.programa {
+  margin-bottom: 4rem;
+}
+
+.semestre {
+  background: #ffe0ec;
+  border-left: 5px solid #d63384;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.materia {
+  margin: 0.3rem 0;
+}
+
+.prerequisito {
+  font-style: italic;
+  color: #6c757d;
+  margin-left: 1rem;
+}
+
+.locked {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.unlocked {
+  font-weight: bold;
+}
